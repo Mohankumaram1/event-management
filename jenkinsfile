@@ -11,7 +11,7 @@ cleanws()
 }
 stage("checkout from SCM"){
 steps{
-git branch: 'main' ,credintialsId: 'github',url: 'git@github.com:Mohankumaram1/event-management.git'
+git branch: 'main' ,credintialsId: 'github',url: 'https://github.com/Mohankumaram1/event-management.git'
 }
 }
 stage("build application"){
